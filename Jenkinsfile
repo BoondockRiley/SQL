@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Git') {
       steps {
-        git(url: 'https://github.com/BoondockRiley/SQL', branch: 'main', credentialsId: 'github-token', poll: true)
+        git(url: 'https://github.com/BoondockRiley/SQL', branch: 'main', credentialsId: 'BR1', poll: true)
         echo 'Done'
         script {
           // Run bash command using specific bash executable
