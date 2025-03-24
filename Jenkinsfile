@@ -9,7 +9,6 @@ pipeline {
                     // Run bash command using specific bash executable
                     bat '"C:\\Program Files\\Git\\bin\\bash.exe" -c "PWD"'
                     bat '"C:\\Program Files\\Git\\bin\\bash.exe" -c "liquibase --version"'
-                    bat '"C:\\Program Files\\Git\\bin\\bash.exe" -c "liquibase update"'
                                     }
             }
       }
